@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Clock from './Clock.js';
-import MyComponent from './MyComponent.js';
+import ColoredBlock from './ColoredBlock.js';
 
 class App extends Component {
   render() {
@@ -14,7 +14,7 @@ class App extends Component {
         </header>
 	      <p className="App-intro">Bonjour {this.props.name}, mon ami!</p>
         <Clock ></Clock>
-        <MyComponent />
+        <ColoredBlock />
 </div>
     );
   }
